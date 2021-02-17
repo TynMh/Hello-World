@@ -3,6 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css';
+let echarts = require('echarts')
+Vue.prototype.$echarts = echarts    // 组件对象 .$echarts
+
+Vue.use(Antd);
 
 Vue.config.productionTip = false
 
