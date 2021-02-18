@@ -8,9 +8,5 @@
     }],
     "stage-2"
   ],
-  "plugins": [
-    "transform-vue-jsx",
-    "transform-runtime",
-    ["import", { "libraryName": "Antd", "libraryDirectory": "es", "style": "css" }]
-  ]
+  "plugins": ["transform-vue-jsx", "transform-runtime"]
 }
