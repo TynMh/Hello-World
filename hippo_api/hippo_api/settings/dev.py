@@ -25,7 +25,10 @@ SECRET_KEY = '#_45v9#*0%kvt#o$rjn^did8covif!gbny1&k6e1#o=60+fagp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'api.hippo.cn',
+    'www.hippo.cn'
+]
 
 
 # Application definition
@@ -44,6 +47,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', #放在中间件的最上面，就是给响应头加上了一个响应头跨域
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -52,6 +56,13 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+# CORS组的配置信息
+CORS_ORIGIN_WHITELIST = (
+    #'www.hippo.cn:8080', #如果这样写不行的话，就加上协议(http://www.hippo.cn:8080，因为不同的corsheaders版本可能有不同的要求)
+    'http://www.hippo.cn:8080',
+)
+CORS_ALLOW_CREDENTIALS = False  # 是否允许ajax跨域请求时携带cookie，False表示不用，我们后面也用不到cookie，所以关掉它就可以了，以防有人通过cookie来搞我们的网站
 
 ROOT_URLCONF = 'hippo_api.urls'
 
@@ -78,9 +89,13 @@ WSGI_APPLICATION = 'hippo_api.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "HOST": "127.0.0.1",
+        "PORT": 3306,
+        "USER": "wang",
+        "PASSWORD": "lhwyq1314",
+        "NAME": "hippo",
     }
 }
 

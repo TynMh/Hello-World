@@ -8,3 +8,34 @@ WARNING 2021-02-18 04:04:37,178 log 222 Not Found: /favicon.ico
 WARNING 2021-02-18 04:04:37,178 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1975
 INFO 2021-02-18 04:16:43,824 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/settings/dev.py changed, reloading.
 INFO 2021-02-18 04:16:45,536 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 07:50:52,874 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-02-24 07:50:54,951 exception 75 Invalid HTTP_HOST header: 'api.hippo.cn:8000'. You may need to add 'api.hippo.cn' to ALLOWED_HOSTS.
+WARNING 2021-02-24 07:50:55,497 log 222 Bad Request: /
+WARNING 2021-02-24 07:50:55,497 basehttp 154 "GET / HTTP/1.1" 400 61263
+ERROR 2021-02-24 07:50:56,411 exception 75 Invalid HTTP_HOST header: 'api.hippo.cn:8000'. You may need to add 'api.hippo.cn' to ALLOWED_HOSTS.
+WARNING 2021-02-24 07:50:56,483 log 222 Bad Request: /favicon.ico
+WARNING 2021-02-24 07:50:56,484 basehttp 154 "GET /favicon.ico HTTP/1.1" 400 61319
+INFO 2021-02-24 07:52:56,173 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 07:52:58,276 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2021-02-24 07:52:58,610 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2021-02-24 07:52:58,728 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2021-02-24 07:52:58,900 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+WARNING 2021-02-24 07:52:58,922 log 222 Not Found: /favicon.ico
+WARNING 2021-02-24 07:52:58,922 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1978
+INFO 2021-02-24 07:52:58,923 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2021-02-24 07:53:40,458 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/settings/dev.py changed, reloading.
+INFO 2021-02-24 07:53:42,757 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 07:53:47,033 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:42:17,255 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/settings/dev.py changed, reloading.
+INFO 2021-02-24 09:42:18,179 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:43:38,762 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:43:53,752 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:46:07,363 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:47:38,794 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:50:32,446 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/settings/dev.py changed, reloading.
+INFO 2021-02-24 09:50:33,461 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:54:24,445 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:54:35,827 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:56:13,003 autoreload 203 /Users/txwdwyq/Library/Python/3.8/lib/python/site-packages/django/db/backends/mysql/operations.py changed, reloading.
+INFO 2021-02-24 09:56:14,308 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-02-24 09:56:19,894 autoreload 578 Watching for file changes with StatReloader
