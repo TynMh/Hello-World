@@ -536,3 +536,107 @@ WARNING 2021-03-01 14:21:11,496 log 222 Bad Request: /user/login/
 WARNING 2021-03-01 14:21:11,496 basehttp 154 "POST /user/login/ HTTP/1.1" 400 41
 INFO 2021-03-01 14:22:41,645 autoreload 578 Watching for file changes with StatReloader
 INFO 2021-03-01 14:22:45,012 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:00:58,094 basehttp 154 "OPTIONS //user/login/ HTTP/1.1" 200 0
+WARNING 2021-03-01 16:00:58,108 log 222 Not Found: //user/login/
+WARNING 2021-03-01 16:00:58,109 basehttp 154 "POST //user/login/ HTTP/1.1" 404 2088
+INFO 2021-03-01 16:05:22,451 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2021-03-01 16:05:22,711 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:07:44,446 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/settings/dev.py changed, reloading.
+INFO 2021-03-01 16:07:46,525 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-01 16:08:02,148 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/settings/dev.py changed, reloading.
+INFO 2021-03-01 16:08:03,586 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-01 16:08:36,650 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-01 16:09:00,105 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:10:39,005 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+WARNING 2021-03-01 16:22:20,453 log 222 Bad Request: /user/login/
+WARNING 2021-03-01 16:22:20,454 basehttp 154 "POST /user/login/ HTTP/1.1" 400 68
+WARNING 2021-03-01 16:22:29,542 log 222 Bad Request: /user/login/
+WARNING 2021-03-01 16:22:29,542 basehttp 154 "POST /user/login/ HTTP/1.1" 400 45
+INFO 2021-03-01 16:33:19,374 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:33:49,719 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:33:56,243 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:34:14,740 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:35:34,583 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:35:45,846 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:35:47,933 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:35:48,506 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:35:48,739 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:35:57,000 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:35:57,737 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:35:58,197 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:36:22,496 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:36:33,165 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:36:43,235 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 16:54:43,510 basehttp 154 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+WARNING 2021-03-01 16:54:43,525 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 16:54:43,525 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+WARNING 2021-03-01 16:54:45,280 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 16:54:45,281 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+WARNING 2021-03-01 16:54:50,604 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 16:54:50,604 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+INFO 2021-03-01 16:54:54,755 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+WARNING 2021-03-01 16:55:00,425 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 16:55:00,426 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+WARNING 2021-03-01 16:55:42,576 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 16:55:42,577 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+WARNING 2021-03-01 16:55:44,075 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 16:55:44,076 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+WARNING 2021-03-01 16:58:19,328 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 16:58:19,329 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+WARNING 2021-03-01 16:59:27,101 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 16:59:27,106 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+WARNING 2021-03-01 16:59:43,070 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 16:59:43,071 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+INFO 2021-03-01 17:00:07,255 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 17:00:09,624 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 17:00:17,065 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+WARNING 2021-03-01 17:00:24,909 log 222 Not Found: /users/verify/
+WARNING 2021-03-01 17:00:24,910 basehttp 154 "POST /users/verify/ HTTP/1.1" 404 2091
+INFO 2021-03-01 17:05:39,965 basehttp 154 "OPTIONS /user/verify/ HTTP/1.1" 200 0
+WARNING 2021-03-01 17:05:39,977 log 222 Not Found: /user/verify/
+WARNING 2021-03-01 17:05:39,977 basehttp 154 "POST /user/verify/ HTTP/1.1" 404 2142
+INFO 2021-03-01 17:05:44,692 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+WARNING 2021-03-01 17:05:50,508 log 222 Not Found: /user/verify/
+WARNING 2021-03-01 17:05:50,508 basehttp 154 "POST /user/verify/ HTTP/1.1" 404 2142
+WARNING 2021-03-01 17:06:18,724 log 222 Not Found: /user/verify/
+WARNING 2021-03-01 17:06:18,725 basehttp 154 "POST /user/verify/ HTTP/1.1" 404 2142
+WARNING 2021-03-01 17:07:33,908 log 222 Bad Request: /user/login/
+WARNING 2021-03-01 17:07:33,909 basehttp 154 "POST /user/login/ HTTP/1.1" 400 87
+INFO 2021-03-01 17:10:38,342 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 17:10:55,314 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+WARNING 2021-03-01 17:18:02,064 log 222 Bad Request: /user/login/
+WARNING 2021-03-01 17:18:02,067 basehttp 154 "POST /user/login/ HTTP/1.1" 400 87
+INFO 2021-03-01 17:26:20,420 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 17:26:25,063 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 17:27:33,605 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 17:31:59,153 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-01 17:35:32,651 basehttp 154 "POST /user/login/ HTTP/1.1" 200 201
+INFO 2021-03-02 10:35:52,216 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/apps/user/urls.py changed, reloading.
+INFO 2021-03-02 10:35:57,075 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-02 10:38:46,409 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/apps/user/urls.py changed, reloading.
+INFO 2021-03-02 10:38:50,654 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-02 10:39:08,777 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/apps/user/urls.py changed, reloading.
+INFO 2021-03-02 10:39:13,891 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-02 10:43:44,243 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/apps/user/urls.py changed, reloading.
+INFO 2021-03-02 10:43:49,242 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-02 10:45:42,800 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/settings/dev.py changed, reloading.
+INFO 2021-03-02 10:45:48,188 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-02 10:46:18,317 autoreload 203 /Users/txwdwyq/Hello-World/hippo_api/hippo_api/settings/dev.py changed, reloading.
+INFO 2021-03-02 10:46:21,155 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-02 10:51:50,550 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+WARNING 2021-03-02 10:51:50,630 log 222 Bad Request: /user/login/
+WARNING 2021-03-02 10:51:50,631 basehttp 154 "POST /user/login/ HTTP/1.1" 400 87
+INFO 2021-03-02 11:04:51,526 basehttp 154 "POST /user/login/ HTTP/1.1" 200 231
+INFO 2021-03-02 11:04:52,722 basehttp 154 "OPTIONS /user/verify/ HTTP/1.1" 200 0
+INFO 2021-03-02 11:04:52,751 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 231
+INFO 2021-03-02 11:07:52,409 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 231
+INFO 2021-03-02 11:08:49,671 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 231
+INFO 2021-03-04 10:45:08,733 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-03-04 16:09:36,778 basehttp 154 "OPTIONS /user/login/ HTTP/1.1" 200 0
+INFO 2021-03-04 16:09:37,105 basehttp 154 "POST /user/login/ HTTP/1.1" 200 231
+INFO 2021-03-04 16:09:37,329 basehttp 154 "OPTIONS /user/verify/ HTTP/1.1" 200 0
+INFO 2021-03-04 16:09:37,341 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 231
+INFO 2021-03-04 16:09:45,052 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 231
+INFO 2021-03-04 16:10:00,660 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 231
+INFO 2021-03-04 16:10:04,158 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 231
+INFO 2021-03-04 16:10:13,757 basehttp 154 "POST /user/verify/ HTTP/1.1" 200 231

@@ -17,7 +17,7 @@
 
           <div class="rember">
             <p>
-              <input type="checkbox" class="no" name="a"/>
+              <input v-model="rember_me" type="checkbox" class="no" name="a"/>
               <span>记住密码</span>
             </p>
 
@@ -37,6 +37,7 @@
     data() {
       return {
         login_type: 0,
+        rember_me: false,
         username: "",
         password: "",
       }
@@ -44,12 +45,26 @@
 
     methods: {
       login() {
-        this.$axios.post(`${this.$settings.HOST}/users/login/`, {}).then((res) => {
+        this.$axios.post(`${this.$settings.HOST}/user/login/`, {
+          username: this.username,
+          password: this.password,
+        }).then((res) => {
+          console.log(res);
 
+          if (this.rember_me) {
+            localStorage.token = res.data.token;
+            sessionStorage.removeItem('token');
+          } else {
+            sessionStorage.token = res.data.token;
+            localStorage.removeItem('token');
+          }
           // locatStorage或者sessionStorage中存储token
           // 跳转到首页
+          this.$router.push('/hippo/showcenter/');
           // 首页加载时验证token有效性
 
+        }).catch((err) =>{
+          this.$message.error('用户名或密码不对！');
         })
       },
 

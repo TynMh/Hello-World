@@ -5,8 +5,13 @@ import App from './App'
 import router from './router'
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
+import axios from 'axios'
+import settings from "./settings";
+
 let echarts = require('echarts')
 Vue.prototype.$echarts = echarts    // 组件对象 .$echarts
+Vue.prototype.$axios = axios    // 组件对象 .$axios
+Vue.prototype.$settings = settings    // 组件对象 .$settings
 
 Vue.use(Antd);
 
